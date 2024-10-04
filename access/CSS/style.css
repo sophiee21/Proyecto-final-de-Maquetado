@@ -14,7 +14,8 @@ body{
 }
 .navegador{ /*aplico display flex al padre*/
     height: 8vh;
-    z-index: 1; /*para que este por encima de la imagen de fondo*/
+    position: absolute;
+    z-index: 10; /*para que este por encima de la imagen de fondo*/
    padding-left:  10em;
    padding-right: 10em;
    }
@@ -59,23 +60,19 @@ body{
     color:  #44c6c1;
 }
 /*titulo y texto*/
-.slider{
-    
-}
-.fondo-negro{
-    background-color: black;
-    height: 8vh;
-}
+
+
 .slider-container{
     background-image: url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
     background-size: auto,cover; 
     background-repeat: repeat,no-repeat;
-    height: 92vh;
+    height: 100vh;
     padding-left: 10em;
     padding-right: 10em;
    display: flex;
    justify-content: center;
    align-items: center;
+   position: relative;
   
 }
 .contenido{
