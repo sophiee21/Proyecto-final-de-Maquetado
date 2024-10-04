@@ -13,28 +13,23 @@ body{
     font-size: 62.5%;/*se traduce a 10 px=1em*/
 }
 .navegador{ /*aplico display flex al padre*/
-    position: fixed;/*para que el menu se qude fijo*/
-    height: 20%;
+    height: 8vh;
     z-index: 1; /*para que este por encima de la imagen de fondo*/
    padding-left:  10em;
    padding-right: 10em;
    }
-.container{
+.container-navegador{
     display: flex;/*acomodo los hijos(el logo y la barra de navegacion)uno al lado del otro*/
     justify-content: space-between;
-    position: relative;/*pongo position relative para que sus hijos se posicionen dentro del container*/
     border-bottom: 0.5px solid rgb(255, 255, 255);/*linea blanca*/
 }
-.navegador nav{
-   position: absolute;
-   left: 57%;/*dejar en esta posicion*/
+.menu{
    width: 40%;
 }
 .tamañologo1{
-       width: 12%;
+       width: 15%;
        height: 40%;
-       position: absolute;
-       top: 50%; 
+ 
 }
 .navegador ul{
        display:flex;
@@ -64,26 +59,24 @@ body{
     color:  #44c6c1;
 }
 /*titulo y texto*/
-.inicio-container{
-    background-image: url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+.slider{
+    
+}
+.fondo-negro{
+    background-color: black;
+    height: 8vh;
+}
+.slider-container{
+    background-image: url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
+    background-size: auto,cover; 
+    background-repeat: repeat,no-repeat;
+    height: 92vh;
     padding-left: 10em;
     padding-right: 10em;
    display: flex;
    justify-content: center;
    align-items: center;
-   position: relative;
-}
-.contenido::before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('../imagenes/2024-urok-home-tramaprincipal.png');
-    background-repeat: repeat;
-    z-index: 2; /* Asegura que la trama esté sobre la imagen */
+  
 }
 .contenido{
 width: 100%;
