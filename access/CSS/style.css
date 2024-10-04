@@ -13,16 +13,20 @@ body{
     font-size: 62.5%;/*se traduce a 10 px=1em*/
 }
 .navegador{ /*aplico display flex al padre*/
-    height: 8vh;
+    height: 10vh;
+    width: 100%;
     position: absolute;
-    z-index: 10; /*para que este por encima de la imagen de fondo*/
-   padding-left:  10em;
-   padding-right: 10em;
+    z-index: 10; /*para que el menu este por encima de la imagen de fondo*/
+    display: flex;
+    justify-content: center;
    }
 .container-navegador{
     display: flex;/*acomodo los hijos(el logo y la barra de navegacion)uno al lado del otro*/
     justify-content: space-between;
     border-bottom: 0.5px solid rgb(255, 255, 255);/*linea blanca*/
+    width: 70%;
+    padding-left:  10em;
+    padding-right: 10em;
 }
 .menu{
    width: 40%;
@@ -60,15 +64,17 @@ body{
     color:  #44c6c1;
 }
 /*titulo y texto*/
-
-
-.slider-container{
+.slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     background-image: url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
     background-size: auto,cover; 
     background-repeat: repeat,no-repeat;
     height: 100vh;
-    padding-left: 10em;
-    padding-right: 10em;
+}
+.slider-container{
+    width: 70%;
    display: flex;
    justify-content: center;
    align-items: center;
