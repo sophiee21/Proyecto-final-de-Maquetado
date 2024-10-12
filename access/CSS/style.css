@@ -264,19 +264,18 @@ height: 25vh;
 .seccion3-info{
     width: 100%;
     height: 60vh;
-    display: block;
+    display:block;
 
 
 }
-.seccion2-info2{
+.seccion3-info2{
     height: 20vh;
 }
 .seccion3-info h3{
     text-align: center;
-    height: 5vh;
 
 }
 .seccion3-info p{
 text-align: center;
-height: 5vh;
+
 }
