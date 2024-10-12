@@ -135,14 +135,21 @@ align-items: center;
 color:  #44c6c1;
 }
 
-.seccion1-container{
+
+/*section1*/
+.seccion1-container1{
     width: 100%;
-    height: 50vh;
     display: flex;
     justify-content: center;
+    height: 190vh;
+}
+.seccion1-container2{
+    display: block;/*para que los articulos se ubiquen uno abajo del otro*/
+    width: 86%;
+    
 }
 .seccion1{
-    width: 60%;
+    height: 95vh;
     display: flex;
 }
 
@@ -167,4 +174,109 @@ color:  #44c6c1;
 }
 .seccion1-info-container p {
     height: 10vh;
+}
+
+.seccion1-1{
+    height: 95vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+   
+}
+.seccion1-1-info-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-labios{
+    width: 100%;
+}
+.info-seccion1-1{
+    width:70%;
+    display: block;
+}
+.info-seccion1-1 h2{
+    height: 10vh;
+}
+.info-seccion1-1 p {
+height: 10vh;
+}
+
+/*seccion2*/
+
+.seccion2-container1{
+    display:flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.seccion2-container2{
+width: 50%;
+height: 50vh;
+display: block;
+}
+
+.seccion2-imagen{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.seccion2-imagen img{
+    width: 18%;
+}
+.seccion2-info{
+height: 50vh;
+display: flex;
+align-items: center;
+}
+.seccion2-info p{
+height: 25vh;
+
+
+}
+
+
+
+/*seccion3*/
+.seccion3-container1{
+    background-image: url("../imagenes/2024-urok-home-mujerconsombrero-02.jpg");
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.seccion3-container2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+}
+.seccion3-info{
+    width: 100%;
+    height: 60vh;
+    display: block;
+
+
+}
+.seccion2-info2{
+    height: 20vh;
+}
+.seccion3-info h3{
+    text-align: center;
+    height: 5vh;
+
+}
+.seccion3-info p{
+text-align: center;
+height: 5vh;
 }
