@@ -12,6 +12,11 @@
 body{
     font-size: 62.5%;/*se traduce a 10 px=1em*/
 }
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navegador{ /*aplico display flex al padre*/
     height: 10vh;
     width: 100%;
@@ -34,7 +39,6 @@ body{
 .tamañologo1{
        width: 15%;
        height: 40%;
- 
 }
 .navegador ul{
        display:flex;
@@ -79,7 +83,6 @@ body{
    justify-content: center;
    align-items: center;
    position: relative;
-  
 }
 .contenido{
 width: 100%;
@@ -134,25 +137,21 @@ align-items: center;
 .contenido a:hover{/*cambia el color del texto see more*/
 color:  #44c6c1;
 }
-
-
 /*section1*/
 .seccion1-container1{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 190vh;
+    height: 120vh;
 }
 .seccion1-container2{
     display: block;/*para que los articulos se ubiquen uno abajo del otro*/
-    width: 86%;
-    
+    width: 60%;
 }
 .seccion1{
-    height: 95vh;
+    height: 60vh;
     display: flex;
 }
-
 .imagen-dedos-dorados{
     width: 100%;
 }
@@ -165,19 +164,19 @@ color:  #44c6c1;
 }
 .info-seccion1{
     width:70%;
-    height: 30vh;
+    height: 20vh;
     display: block; 
     
 }
 .seccion1-info-container h2{
-    height: 10vh;
+    height: 5vh;
 }
 .seccion1-info-container p {
-    height: 10vh;
+    height: 5vh;
 }
 
 .seccion1-1{
-    height: 95vh;
+    height: 60vh;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -204,28 +203,24 @@ color:  #44c6c1;
 .info-seccion1-1 p {
 height: 10vh;
 }
-
 /*seccion2*/
-
 .seccion2-container1{
     display:flex;
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     justify-content: center;
     align-items: center;
 }
 .seccion2-container2{
-width: 50%;
+width: 30%;
 height: 50vh;
 display: block;
 }
-
 .seccion2-imagen{
     height: 8vh;
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 .seccion2-imagen img{
     width: 18%;
@@ -237,12 +232,7 @@ align-items: center;
 }
 .seccion2-info p{
 height: 25vh;
-
-
 }
-
-
-
 /*seccion3*/
 .seccion3-container1{
     background-image: url("../imagenes/2024-urok-home-mujerconsombrero-02.jpg");
@@ -255,27 +245,165 @@ height: 25vh;
 }
 .seccion3-container2{
     width: 50%;
+    height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     position: absolute;
     z-index: 10;
 }
 .seccion3-info{
+    margin-top: auto;
     width: 100%;
-    height: 60vh;
+    height: 30vh;
     display:block;
-
-
 }
 .seccion3-info2{
-    height: 20vh;
+    height: 10vh;
 }
 .seccion3-info h3{
     text-align: center;
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .seccion3-info p{
 text-align: center;
-
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*seccion4*/
+.seccion4-container1{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+.seccion4-container2{
+    width: 60%;
+    display: block;
+}
+.seccion4-container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55vh;
+}
+.seccion4-containerdiv{
+   display: flex; 
+   height: 40vh;
+}
+.seccion4-container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.seccion4-container5{
+width: 90%;
+height: 30vh;
+}
+.seccion4-container5 h2{
+    display: flex;
+    width: 100%;
+    height:10vh ;
+    font-size: 1em;
+}
+.seccion4-container5 p{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    font-size: 1em;
+}
+.seccion4-containerdiv2{
+    display: flex; 
+    flex-direction: row-reverse;
+    height: 40vh;
+}
+.seccion4-container5-2{
+    width: 90%;
+    height: 30vh;
+}
+.seccion4-container5-2 p{
+    width: 100%;
+    height: 10vh;
+    font-size: 1em;
+    text-align: right; 
+}
+.seccion4-container5-2 h2{
+    width: 100%;
+    height:10vh ;
+    font-size: 1em;
+    text-align: right;
+}
+/*seccion 5*/
+.seccion5-container1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.seccion5-container3{
+    width: 25%;
+    height: 20;
+}
+/*seccion 6*/
+.seccion6-container1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion6-container1 article{
+    width: 60%;
+    height: 60vh;
+    display: block;
+}
+.seccion6-container2{
+    width: 100%;
+    height: 10vh;
+}
+.seccion6-container3{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+.seccion6-texto{
+    display: block;
+}
+.seccion6-texto2{
+    height: 25vh;
+}
+.seccion6-texto2 h3{
+    height: 5vh;
+}
+.seccion6-texto2 p{
+    height: 20vh;
+    font-size: 1.2em;
+ 
+}
+.seccion6-texto3{
+   display: flex;
+   justify-content: center;
+    height: 25vh;
+}
+.seccion6-texto3 div{
+    display: block;
+    width: 90%;
+}
+.seccion6-texto3 h4{
+    height: 20vh;
+   
+}
+.seccion6-texto3 h5{
+    height: 5vh;
+}
+.seccion6-container4{
+    width: 50%;
 }
