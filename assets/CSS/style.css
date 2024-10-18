@@ -18,7 +18,7 @@ body{
     align-items: center;
 }
 .navegador{ /*aplico display flex al padre*/
-    height: 10vh;
+    height: 13vh;
     width: 100%;
     position: absolute;
     z-index: 10; /*para que el menu este por encima de la imagen de fondo*/
@@ -28,45 +28,72 @@ body{
 .container-navegador{
     display: flex;/*acomodo los hijos(el logo y la barra de navegacion)uno al lado del otro*/
     justify-content: space-between;
+    align-items: center;
     border-bottom: 0.5px solid rgb(255, 255, 255);/*linea blanca*/
-    width: 70%;
-    padding-left:  10em;
-    padding-right: 10em;
+    width: 60%;
+    
+
 }
-.menu{
-   width: 40%;
+.container-menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+}
+.container-menu nav{
+    height: 3vh;
+    display: flex;
+
 }
 .tamañologo1{
-       width: 15%;
-       height: 40%;
+      width: 15%;
+      height: 12vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;/*coloca el logo en la parte inferior del contenedor*/
 }
-.navegador ul{
+#logo1{
+    width: 100%;
+    height: auto;
+}
+.menu{
        display:flex;
        list-style-type: none; 
        justify-content:space-between;
-       width: 100%;/*para que ocupe el ancho entero de su padre(nav)*/
+       width: 100%;
+
 }
-.navegador li{
-    width: 20%;
-   position: relative;
-   display: flex;
+.menu li{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    flex-grow: 1;
 }
 .listamenu{
-    position: absolute;
-    top: 80%;/*lo ubico dentro del padre li*/
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 20%;
-}
-.listamenu h4{
+    width: 100%;
+    height: auto;
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 1.4em;
     color: rgb(255, 255, 255);
     text-align: center;
+   
+}
+.listamenu h4{
+   width: 100%;
+   height: auto;
+   
+ 
 }
 .cambiocolor:hover{
     color:  #44c6c1;
 }
+
+
+
+
 /*titulo y texto*/
 .slider{
     width: 100%;
