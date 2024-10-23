@@ -12,6 +12,10 @@
 body{
     font-size: 62.5%;/*se traduce a 10 px=1em*/
 }
+.content {
+    height: 700vh;/*contiene el header y el main*/
+  }
+
 img{
     width: 100%;
     height: auto;
@@ -626,6 +630,7 @@ align-items: center;
     align-items: center;
 }
 /*footer*/
+
 .footer-container1{
 height: 50vh;
 width: 100%;
@@ -647,4 +652,7 @@ height: auto;
 }
 .footer-container2-1{
 
+}
+.prueba{
+    height: 10vh;
 }
