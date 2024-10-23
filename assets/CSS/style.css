@@ -627,14 +627,24 @@ align-items: center;
 }
 /*footer*/
 .footer-container1{
-
+height: 50vh;
+width: 100%;
+display:flex;
+align-items: flex-end;
+justify-content: center;
 }
 .footer-container1 article{
-
+height: 40vh;
+width: 60%;
+display: flex;
+}
+.seccion7-container5-2 img{
+width: 30%;
+height: auto;
 }
 .footer-container2{
 
 }
 .footer-container2-1{
-    
+
 }
