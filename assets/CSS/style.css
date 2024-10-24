@@ -20,6 +20,7 @@ img{
     width: 100%;
     height: auto;
 }
+/*CLASES UTILES*/
 .fondo-blanco{
     background-color: #f5f7f7;
 }
@@ -31,24 +32,61 @@ img{
     justify-content: center;
     align-items: center;
 }
+.flex-container2{
+    display: flex;
+    align-items: center;
+}
+.flex-container3{
+    display: flex;
+    justify-content: center;
+}
+.tamaño{
+    width: 100%;
+    height: auto;  
+}
+.tipografia-os{
+    font-family: "Open Sans", sans-serif;
+     font-size: 1em;
+     font-weight: 400;
+     line-height: 1.5em;
+}
+.tipografia-noto{
+    font-family: "Noto Serif", Serif;
+  color:  #737d80;
+  font-size: 2em;
+  font-weight: 400;
+}
+.tipografia-gris{
+    color:  #737d80;
+}
+.tipografia-blanca{
+    color: rgb(255, 255, 255);
+}
+.see-more{
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+     font-size: 0.9em;
+     color:  #3d4142;;
+     font-weight: 800;
+}
+.see-more a:hover{/*cambia el color del texto see more*/
+    color:  #44c6c1;
+    }
+/*CLASES UTILES*/
+/*HEADER*/
 .navegador{ /*aplico display flex al padre*/
     height: 13vh;
     width: 100%;
     position: absolute;
     z-index: 10; /*para que el menu este por encima de la imagen de fondo*/
-    display: flex;
-    justify-content: center;
    }
 .container-navegador{
-    display: flex;/*acomodo los hijos(el logo y la barra de navegacion)uno al lado del otro*/
     justify-content: space-between;
-    align-items: center;
     border-bottom: 0.5px solid rgb(255, 255, 255);/*linea blanca*/
     width: 60%;
 }
 .container-menu{
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
     width: 40%;
 }
@@ -59,8 +97,6 @@ img{
 .tamañologo1{
       width: 15%;
       height: 12vh;
-      display: flex;
-      justify-content: center;
       align-items: flex-end;/*coloca el logo en la parte inferior del contenedor*/
 }
 #logo1{
@@ -81,10 +117,6 @@ img{
     flex-grow: 1;
 }
 .listamenu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     height: auto;
     font-family: "Open Sans", sans-serif;
     color: rgb(255, 255, 255);
@@ -100,8 +132,6 @@ img{
 /*titulo y texto*/
 .slider{
     width: 100%;
-    display: flex;
-    justify-content: center;
     background-image: url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
     background-size: auto,cover; 
     background-repeat: repeat,no-repeat;
@@ -109,18 +139,12 @@ img{
 }
 .slider-container{
     width: 70%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
    position: relative;
 }
 .contenido{
 width: 100%;
 height: 48%;
-display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
 }
 .contenido h1{
     text-align: center;
@@ -149,9 +173,6 @@ align-items: center;
 .contenido div{
     height: 20%;
     width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #44c6c1;
 }
 .contenido h5{/*texto see more*/
@@ -160,7 +181,7 @@ align-items: center;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: "Open Sans", sans-serif;
-    font-size: 12px;
+    font-size: 12px;/*cambiar a em*/
     line-height: 12px;
     font-weight: 600;
 }
@@ -170,8 +191,6 @@ color:  #44c6c1;
 /*section1*/
 .seccion1-container1{
     width: 100%;
-    display: flex;
-    justify-content: center;
     height: 120vh;
 }
 .seccion1-container2{
@@ -187,13 +206,6 @@ color:  #44c6c1;
     width: 100%;
     height: 100%;
 }
-.seccion1-info-container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .info-seccion1{
     width:70%;
     height: 40vh;
@@ -203,38 +215,21 @@ color:  #44c6c1;
 .div-h3{
     width: 100%;
    height: 15vh;
-    display: flex;
-    align-items: center;
 }
 .div-p1{
     height: 15vh;
     width: 100%;
-    display: flex;
-    align-items: center;
 }
 .div-seemore{
     height: 10vh;
     width: 100%;
-    display: flex;
-    align-items: center;
 }
-.see-more{
-    width: 100%;
-    height: auto;
-    font-family: "Open Sans", sans-serif;
-     font-size: 0.9em;
-     color:  #3d4142;;
-     font-weight: 800;
-}
-.see-more a:hover{/*cambia el color del texto see more*/
-    color:  #44c6c1;
-    }
 .estilos h3{
   width: 100%;
   height: auto;
   font-family: "Noto Serif", Serif;
   color:  #737d80;
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: 400;
 }
 .estilos p {
@@ -248,10 +243,7 @@ color:  #44c6c1;
 }
 .seccion1-1{
     height: 60vh;
-    display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
     background-color: #f5f7f7;
 }
 .imagen-labios img{
@@ -265,11 +257,8 @@ color:  #44c6c1;
 }
 /*seccion2*/
 .seccion2-container1{
-    display:flex;
     width: 100%;
     height: 60vh;
-    justify-content: center;
-    align-items: center;
 }
 .seccion2-container2{
 width: 40%;
@@ -279,8 +268,6 @@ display: block;
 .seccion2-imagen{
     height: 5vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 .seccion2-imagen img{
     width: 20%;
@@ -288,8 +275,7 @@ display: block;
 }
 .seccion2-info{
 height: 35vh;
-display: flex;
-align-items: center;
+
 }
 .seccion2-info div{
     height: 26vh;
@@ -299,11 +285,10 @@ align-items: center;
 .seccion2-info p{
     height: 13vh;
 }
-.seccion2-p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.texto-centrado{
     text-align: center;
+    
 }
 /*seccion3*/
 .seccion3-container1{
@@ -311,9 +296,6 @@ align-items: center;
     width: auto;
     height: 80vh;
     background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     z-index: 5;
 }
@@ -321,9 +303,7 @@ align-items: center;
 .seccion3-container2{
     width: 50%;
     height: 60vh;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     position: absolute;
     z-index: 10;
 }
@@ -339,9 +319,6 @@ align-items: center;
 .seccion3-info h3{
     text-align: center;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Noto Serif", Serif;
     color:  #ffffff;
     font-size: 2.3em;
@@ -350,9 +327,6 @@ align-items: center;
 .seccion3-info p{
 text-align: center;
 width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
 font-family: "Noto Serif", Serif;
 font-style: italic;
 color:  #ffffff;
@@ -362,9 +336,6 @@ font-weight: 400;
 .seccion3-info h5{
 text-align: center;
 width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
 font-family: "Noto Serif", Serif;
 font-style: italic;
 color:  #ffffff;
@@ -375,9 +346,6 @@ font-weight: 400;
 .seccion4-container1{
     width: 100%;
     height: 140vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .seccion4-container2{
     height: 120vh;
@@ -385,9 +353,6 @@ font-weight: 400;
     display: block;
 }
 .seccion4-container3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 60vh;
 }
@@ -401,15 +366,10 @@ font-weight: 400;
 
  }
 .seccion4-container4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 55%;
 }
 .seccion4-container4-2{
-    display: flex;
     justify-content: left;
-    align-items: center;
     width: 55%;
 }
 .seccion4-container5{
@@ -421,21 +381,12 @@ height: 30vh;
     height: 30vh;
     }
 .seccion4-h3{
-display: flex;
-justify-content: center;
-align-items: center;
 height: 12vh;
 }
 .seccion4-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 14vh;
 }
 .seccion4-h5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 4vh;
 }
 .seccion4-containerdiv2{
@@ -479,15 +430,10 @@ height: 12vh;
     background-color:rgba(0, 0, 0, 0.5);
     transition: .10s ease;
     opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
   }
 .overlay a{
     color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 70%; 
 }
 .seccion5-container3 img{
@@ -498,9 +444,6 @@ height: 12vh;
 .seccion6-container1{
     width: 100%;
     height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .seccion6-container1 article{
     width: 60%;
@@ -514,8 +457,6 @@ height: 12vh;
 .seccion6-container2 h3{
     width: 100%;
     height: 5vh;
-    display: flex;
-    align-items: center;
     color:#737D80;
 }
 .seccion6-container3{
@@ -526,8 +467,6 @@ height: 12vh;
 .seccion6-container2 h4{
     width: 100%;
     height: 5vh;
-    display: flex;
-    align-items: center;
     font-family: "Noto Serif", Serif;
     color: #737D80;
     font-size: 1em;
@@ -539,61 +478,46 @@ height: 12vh;
 .seccion6-texto{
     height: 100%;
 }
-.seccion6-containertexto2{
-    display: flex;
-    justify-content: center;
+.contenido-20vh{
     height: 20vh;
 }
-.seccion6-texto2{
-    height: 20vh;
-}
-.seccion6-texto2 p{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-}
-.seccion6-texto3{
-    height: 20vh;
-}
-.seccion6-texto3{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
+
 .seccion6-texto3-div{
     display: block;
     width: 90%;
     height: 18vh;
 }
-.seccion6-texto3 h3{
+#seccion6-h3{
     height: 13vh;
-    display: flex;
-    align-items: center;
     font-family: "Open Sans", sans-serif;
     font-size: 1.7em;
     color: #737D80;
     font-weight: lighter;
-    line-height: 1.5em;
+    line-height: 1.5em;   
 }
 .seccion6-container-h5{
     height: 5vh;
     width: 34%;
     display: flex;
 }
-#seccion6-h5{
+#seccion6-h5-2{
 font-style: italic;
+height: 2.5vh;
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #737D80;
+font-weight: lighter;
+line-height: 1.5em;
 }
-.seccion6-texto3 h5{
+#seccion6-h5{
     height: 2.5vh;
-    display: flex;
-    align-items: center;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #737D80;
     font-weight: lighter;
     line-height: 1.5em;
 }
+
 .seccion6-container4{
     width: 40%;
 }
@@ -611,13 +535,6 @@ font-style: italic;
     display: flex;
 }
 .seccion7-container4{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    
-}
-.seccion7-container4 article{
     width: 80%;
     height: 45vh;
     display: flex;
@@ -629,44 +546,24 @@ font-style: italic;
 }
 .seccion7-container5{
 height: 12vh;
-display: flex;
-align-items: center;
 }
 .seccion7-container5-2{
     height: 9vh;
-    display: flex;
-    align-items: center;
 }
 .seccion7-container5-2 div{
     height: 9vh;
 }
-.seccion7-container5 h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.seccion7-container5 p{
-    display: flex;
-    align-items: center;
-}
 .seccion7-contacto p{
     height: 3vh;
-    display: flex;
-    align-items: center;
 }
 .contact-form h3{
     height: 5vh;
-    display: flex;
-    align-items:center;
-
 }
 /*footer*/
 .footer-container1{
 height: 60vh;
 width: 100%;
-display:flex;
 align-items: flex-end;
-justify-content: center;
 background-color: #212526;
 }
 .footer-container1 article{
@@ -691,8 +588,6 @@ height: 48vh;
 }
 .footer-container-datos2{
     height: 9vh;
-    display: flex;
-    align-items: center;
 }
 .footer-container-datos2 img{
     width: 17%;
@@ -706,12 +601,9 @@ height: 48vh;
 }
 .footer-container-datos3{
     height: 17vh;
-    display: flex;
-    align-items: center; 
+  
 }
 .footer-container-datos3 p{
-    display: flex;
-    align-items: center;
     color: #ACBBBF;
 }
 .footer-iconos{
@@ -719,28 +611,17 @@ height: 48vh;
 }
 .footer-container2-2{
 width: 72%;
-display: flex;
-justify-content: center;
 align-items: flex-end;
 }
 .footer-container2-3{
     height: 5vh;
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
 }
 .prueba{
     height: 10vh;
 }
-.prueba p{
-    display: flex;
-    align-items: center;
-}
 .footer-container2-3 h5{
 width: 60%;
 height: 5vh;
-display: flex;
-align-items: center;
 font-family: "Noto Serif", Serif;
 color: #ffffff;
 font-size: 1.8em;
@@ -748,14 +629,9 @@ font-weight: 400;
 }
 .footer-container2-4{
     height: 11vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .footer-container2-4 h4{
     width: 90%;
-    display: flex;
-    align-items: center;
     font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
     color: #ACBBBF;
