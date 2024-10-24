@@ -212,6 +212,17 @@ color:  #44c6c1;
     display: flex;
     align-items: center;
 }
+.see-more{
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+     font-size: 0.9em;
+     color:  #3d4142;;
+     font-weight: 800;
+}
+.see-more a:hover{/*cambia el color del texto see more*/
+    color:  #44c6c1;
+    }
 .estilos h3{
   width: 100%;
   height: auto;
@@ -229,15 +240,6 @@ color:  #44c6c1;
     font-weight: 400;
     line-height: 1.5em;
 }
-.estilos h5 {
-    width: 100%;
-    height: auto;
-    font-family: "Open Sans", sans-serif;
-     font-size: 1em;
-     color:  #737d80;
-     font-weight: bolder;
-     line-height: 1em;
- }
 .seccion1-1{
     height: 60vh;
     display: flex;
