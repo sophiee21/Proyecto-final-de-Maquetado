@@ -80,13 +80,12 @@ img{
 /*----HEADER-----*/
 .navegador{ /*aplico display flex al padre*/
     height: 13vh;
-    width: 100%;
     position: absolute;
-    z-index: 10; /*para que el menu este por encima de la imagen de fondo*/
+   
    }
 .container-navegador{
     justify-content: space-between;
-    border-bottom: 0.5px solid rgb(255, 255, 255);/*linea blanca*/
+    border-bottom: 0.1px solid rgb(101, 99, 99);/*linea blanca*/
     width: 60%;
 }
 .container-menu{
@@ -110,7 +109,6 @@ img{
        display:flex;
        list-style-type: none; 
        justify-content:space-between;
-       width: 100%;
 }
 .menu li{
     display: flex;
@@ -122,8 +120,13 @@ img{
 .listamenu{
     height: auto;
     font-family: "Open Sans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(198, 198, 198);
+    font-weight: lighter;
     text-align: center;
+    font-size: 0.8em;
+}
+.menu-hamburguesa{
+     width: 8%;
 }
 .listamenu h4{
    width: 100%;
@@ -135,7 +138,6 @@ img{
 /*-----MAIN-------*/
 /*-----SLIDER-----*/
 .slider{
-    width: 100%;
     background-image: url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
     background-size: auto,cover; 
     background-repeat: repeat,no-repeat;
@@ -146,7 +148,6 @@ img{
    position: relative;
 }
 .slider-titulos{
-width: 100%;
 height: 50vh;
 flex-direction: column;
 }
@@ -161,9 +162,6 @@ flex-direction: column;
     margin-top: 6%;
     height: 15vh;
 }
-.slider-titulos strong{/*urok*/
-    font-weight: 700;
-}
 .slider-titulos p{
     height: 5vh;
     width: 70%;
@@ -176,7 +174,6 @@ flex-direction: column;
 .slider-titulos div{
     height: 17vh;
     flex-direction: column;
-   
 }
 .slider-titulos h5{/*texto see more*/
     width: 8%;
@@ -187,7 +184,6 @@ flex-direction: column;
     font-family: "Open Sans", sans-serif;
     font-size: 0.8em;/*cambiar a em*/
     line-height: 12px;
-    font-weight: 600;
     margin-bottom: 4%;
 }
 
@@ -197,17 +193,15 @@ color:  #44c6c1;
 /*----/SLIDER---*/
 /*section1*/
 .seccion1-container1{
-    width: 100%;
     height: 120vh;
 }
 .seccion1-container2{
-    display: block;/*para que los articulos se ubiquen uno abajo del otro*/
+    display: block;
     width: 62%;
 }
 .seccion1{
     height: 60vh;
     display: flex;
-    background-color: #f5f7f7;
 }
 .imagen-dedos-dorados img{
     width: 100%;
@@ -229,7 +223,6 @@ color:  #44c6c1;
 }
 .div-seemore{
     height: 10vh;
-    width: 100%;
 }
 .estilos h3{
   width: 100%;
@@ -242,7 +235,6 @@ color:  #44c6c1;
 .seccion1-1{
     height: 60vh;
     flex-direction: row-reverse;
-    background-color: #f5f7f7;
 }
 .imagen-labios img{
     width: 100%;
@@ -255,7 +247,6 @@ color:  #44c6c1;
 }
 /*seccion2*/
 .seccion2-container1{
-    width: 100%;
     height: 60vh;
 }
 .seccion2-container2{
@@ -265,7 +256,6 @@ display: block;
 }
 .seccion2-imagen{
     height: 5vh;
-    width: 100%;
 }
 .seccion2-imagen img{
     width: 20%;
@@ -277,7 +267,6 @@ height: 35vh;
 }
 .seccion2-info div{
     height: 26vh;
-    width: 100%;
     display: block;
 }
 .seccion2-info p{
@@ -307,7 +296,6 @@ height: 35vh;
 }
 .seccion3-info{
     margin-top: auto;
-    width: 100%;
     height: 30vh;
     display:block;
 }
@@ -316,7 +304,6 @@ height: 35vh;
 }
 .seccion3-info h3{
     text-align: center;
-    width: 100%;
     font-family: "Noto Serif", Serif;
     color:  #ffffff;
     font-size: 2.3em;
@@ -324,7 +311,6 @@ height: 35vh;
 }
 .seccion3-info p{
 text-align: center;
-width: 100%;
 font-family: "Noto Serif", Serif;
 font-style: italic;
 color:  #ffffff;
@@ -333,7 +319,6 @@ font-weight: 400;
 }
 .seccion3-info h5{
 text-align: center;
-width: 100%;
 font-family: "Noto Serif", Serif;
 font-style: italic;
 color:  #ffffff;
@@ -342,7 +327,6 @@ font-weight: 400;
 }
 /*seccion4*/
 .seccion4-container1{
-    width: 100%;
     height: 140vh;
 }
 .seccion4-container2{
@@ -351,7 +335,6 @@ font-weight: 400;
     display: block;
 }
 .seccion4-container3{
-    width: 100%;
     height: 60vh;
 }
 .seccion4-containerdiv{
@@ -359,9 +342,7 @@ font-weight: 400;
    height: 50vh;
 }
 .seccion4-containerdiv img{
-   width: 100%;
    height: 100%;
-
  }
 .seccion4-container4{
     width: 55%;
@@ -393,7 +374,6 @@ height: 12vh;
     height: 50vh;
 }
 .seccion4-containerdiv2 img{
-    width: 100%;
     height: 100%;
   }
 .texto-derecha{
@@ -401,7 +381,6 @@ height: 12vh;
 }
 /*seccion 5*/
 .seccion5-container{
-    width: 100%;
     height: 67.2vh;
     display: flex;
     flex-wrap: wrap;
@@ -412,9 +391,6 @@ height: 12vh;
 }
 .overlay-container{
     position: relative;
-  }
-  .overlay-container img{
-    width: 100%;
   }
 .overlay-container:hover .overlay{
     opacity:1;
@@ -440,7 +416,6 @@ height: 12vh;
 }
 /*seccion 6*/
 .seccion6-container1{
-    width: 100%;
     height: 70vh;
 }
 .seccion6-container1 article{
@@ -449,37 +424,26 @@ height: 12vh;
     display: block;
 }
 .seccion6-container2{
-    width: 100%;
     height:10vh;
 }
 .seccion6-container2 h3{
-    width: 100%;
     height: 5vh;
     color:#737D80;
 }
 .seccion6-container3{
     display: flex;
-    width: 100%;
     height: 40vh;
 }
 .seccion6-container2 h4{
-    width: 100%;
     height: 5vh;
     font-family: "Noto Serif", Serif;
     color: #737D80;
     font-size: 1em;
     font-weight: 400;
 }
-.seccion6-container3 p{
-    width: 100%;
-}
-.seccion6-texto{
-    height: 100%;
-}
 .contenido-20vh{
     height: 20vh;
 }
-
 .seccion6-texto3-div{
     display: block;
     width: 90%;
@@ -524,12 +488,10 @@ line-height: 1.5em;
 }
 /*seccion7*/
 .seccion7-container1{
-    width: 100%;
     height: 60vh;
     display: flex;
 }
 .seccion7-container3{
-    width: 100%;
     display: flex;
 }
 .seccion7-container4{
@@ -539,7 +501,6 @@ line-height: 1.5em;
     align-items: flex-start;
 }
 .seccion7-container4-2{
-    width: 100%;
     height: 30vh;
 }
 .seccion7-container5{
@@ -560,7 +521,6 @@ height: 12vh;
 /*footer*/
 .footer-container1{
 height: 60vh;
-width: 100%;
 align-items: flex-end;
 background-color: #212526;
 }
@@ -569,18 +529,13 @@ height: 50vh;
 width: 60%;
 display: flex;
 }
-.footer-container2{
-width: 100%;
-}
 .footer-container-datos1{
-    width: 100%;
     height: 40vh; 
 }
 .footer-borde{
 height: 48vh;
 }
 .footer-container-borde{
-    width: 100%;
     height: 35vh;
     border-left: 0.5px solid rgb(66, 65, 65);
 }
