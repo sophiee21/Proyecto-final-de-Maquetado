@@ -694,7 +694,7 @@ justify-content: center;
 align-items: flex-end;
 }
 .footer-container2-3{
-    height: 9vh;
+    height: 5vh;
     display: flex;
     align-items: center; 
     justify-content: center; 
@@ -712,16 +712,24 @@ width: 60%;
 height: 5vh;
 display: flex;
 align-items: center;
+font-family: "Noto Serif", Serif;
+color: #ffffff;
+font-size: 1.8em;
+font-weight: 400;
 }
 .footer-container2-4{
-    height: 4vh;
+    height: 11vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .footer-container2-4 h4{
     width: 90%;
-    height: 5vh;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    color: #ACBBBF;
+    font-weight: 400;
+    line-height: 1.5em;
 }
