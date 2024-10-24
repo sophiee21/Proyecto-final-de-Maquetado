@@ -651,6 +651,14 @@ width: 100%;
     width: 100%;
     height: 40vh; 
 }
+.footer-borde{
+height: 48vh;
+}
+.footer-container-borde{
+    width: 100%;
+    height: 35vh;
+    border-left: 0.5px solid rgb(66, 65, 65);
+}
 .footer-container-datos2{
     height: 9vh;
     display: flex;
@@ -680,9 +688,10 @@ width: 100%;
     height: 5vh;
 }
 .footer-container2-2{
-width: 60%;
+width: 72%;
 display: flex;
 justify-content: center;
+align-items: flex-end;
 }
 .footer-container2-3{
     height: 9vh;
@@ -707,9 +716,11 @@ align-items: center;
 .footer-container2-4{
     height: 4vh;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    justify-content: center;
 }
 .footer-container2-4 h4{
+    width: 90%;
     height: 5vh;
     display: flex;
     align-items: center; 
