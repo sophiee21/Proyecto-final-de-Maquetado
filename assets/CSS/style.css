@@ -20,6 +20,12 @@ img{
     width: 100%;
     height: auto;
 }
+.fondo-blanco{
+    background-color: #f5f7f7;
+}
+.fondo-gris{
+    background-color: #737d80;
+}
 .flex-container{
     display: flex;
     justify-content: center;
@@ -609,7 +615,7 @@ font-style: italic;
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: #f5f7f7;
+    
 }
 .seccion7-container4 article{
     width: 80%;
@@ -647,6 +653,12 @@ align-items: center;
     height: 3vh;
     display: flex;
     align-items: center;
+}
+.contact-form h3{
+    height: 5vh;
+    display: flex;
+    align-items:center;
+
 }
 /*footer*/
 .footer-container1{
