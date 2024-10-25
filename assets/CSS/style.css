@@ -463,10 +463,17 @@ height: 12vh;
 .seccion6-texto3-div{
 
     width: 90%;
-    height: 18vh;
+    height: 20vh;
+}
+.margin{
+    margin-top: 3%;
+}
+.linea-borde{
+    border-left: 0.2px solid rgb(196, 196, 196);
 }
 #seccion6-h3{
-    height: 13vh;
+   padding-top: 4%;
+    height: 15vh;
     font-family: "Open Sans", sans-serif;
     font-size: 1.4em;
     color: #737D80;
@@ -474,7 +481,7 @@ height: 12vh;
     line-height: 1.5em;   
 }
 .seccion6-container-h5{
-    height: 5vh;
+    height: 2vh;
     width: 34%;
     display: flex;
 }
