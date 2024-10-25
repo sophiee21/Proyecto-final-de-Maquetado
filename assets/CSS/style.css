@@ -13,7 +13,7 @@ body{
     font-size: 62.5%;/*se traduce a 10 px=1em*/
 }
 .content {
-    height: 697.2vh;/*contiene el header y el main*/
+    height: 700vh;/*contiene el header y el main*/
   }
 
 img{
@@ -388,7 +388,7 @@ height: 12vh;
 }
 /*seccion 5*/
 .seccion5-container{
-    height: 67.2vh;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -428,7 +428,16 @@ height: 12vh;
 .seccion6-container1 article{
     width: 60%;
     height: 50vh;
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
 }
 .seccion6-container2{
     height:10vh;
@@ -452,7 +461,7 @@ height: 12vh;
     height: 20vh;
 }
 .seccion6-texto3-div{
-    display: block;
+
     width: 90%;
     height: 18vh;
 }
