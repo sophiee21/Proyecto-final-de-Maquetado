@@ -357,10 +357,14 @@ font-weight: 400;
 .seccion4-container5{
 width: 90%;
 height: 30vh;
+display: flex;
+flex-direction: column;
 }
 .seccion4-container5-2{
     width: 80%;
     height: 30vh;
+    display: flex;
+    flex-direction: column;
     }
 .seccion4-h3{
 height: 12vh;
