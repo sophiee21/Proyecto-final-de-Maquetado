@@ -8,6 +8,7 @@
     width: 100%;
     box-sizing: border-box;/*para ver*/
     font-family: inherit;
+    list-style-type: none; 
 }
 body{
     font-size: 62.5%;/*se traduce a 10 px=1em*/
@@ -39,6 +40,14 @@ img{
 .flex-container3{
     display: flex;
     justify-content: center;
+}
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
 }
 .tamaño{
     width: 100%;
@@ -105,11 +114,6 @@ img{
 #logo1{
     width: 100%;
     height: auto;
-}
-.menu{
-       display:flex;
-       list-style-type: none; 
-       justify-content:space-between;
 }
 .menu li{
     display: flex;
@@ -197,7 +201,6 @@ color:  #44c6c1;
     height: 120vh;
 }
 .seccion1-container2{
-    display: block;
     width: 62%;
 }
 .seccion1{
@@ -211,8 +214,6 @@ color:  #44c6c1;
 .info-seccion1{
     width:65%;
     height: 40vh;
-    display: flex;
-    flex-direction: column;
     text-align: right;
 }
 .div-h3{
@@ -245,8 +246,6 @@ color:  #44c6c1;
 .info-seccion1-1{
     width:65%;
     height: 40vh;
-    display: flex;
-   flex-direction: column;
 }
 /*seccion2*/
 .seccion2-container1{
@@ -255,7 +254,6 @@ color:  #44c6c1;
 .seccion2-container2{
 width: 40%;
 height: 41vh;
-display: block;
 }
 .seccion2-imagen{
     height: 15vh;
@@ -270,7 +268,6 @@ height: 25vh;
 }
 .seccion2-info div{
     height: 26vh;
-    display: block;
 }
 .seccion2-info p{
     height: 13vh;
@@ -428,16 +425,6 @@ height: 12vh;
 .seccion6-container1 article{
     width: 60%;
     height: 50vh;
-    display: flex;
-    flex-direction: column;
-}
-.flex-colum{
-    display: flex;
-    flex-direction: column;
-}
-.flex-space-between{
-    display: flex;
-    justify-content: space-between;
 }
 .seccion6-container2{
     height:10vh;
