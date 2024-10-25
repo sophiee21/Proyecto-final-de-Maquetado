@@ -48,7 +48,7 @@ img{
     font-family: "Open Sans", sans-serif;
      font-size: 1em;
      font-weight: 400;
-     line-height: 1.5em;
+     line-height: 1.6em;
 }
 .tipografia-noto-h3{
     font-family: "Noto Serif", Serif;
@@ -258,14 +258,14 @@ height: 41vh;
 display: block;
 }
 .seccion2-imagen{
-    height: 9vh;
+    height: 15vh;
 }
 .seccion2-imagen img{
-    width: 20%;
+    width: 18%;
     height: auto;
 }
 .seccion2-info{
-height: 31vh;
+height: 25vh;
 
 }
 .seccion2-info div{
