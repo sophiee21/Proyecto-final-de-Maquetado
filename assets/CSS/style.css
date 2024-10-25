@@ -208,9 +208,10 @@ color:  #44c6c1;
     height: 100%;
 }
 .info-seccion1{
-    width:70%;
+    width:65%;
     height: 40vh;
-    display: block; 
+    display: flex;
+    flex-direction: column;
     text-align: right;
 }
 .div-h3{
@@ -241,9 +242,10 @@ color:  #44c6c1;
     height: 100%;
 }
 .info-seccion1-1{
-    width:70%;
+    width:65%;
     height: 40vh;
-    display: block;
+    display: flex;
+   flex-direction: column;
 }
 /*seccion2*/
 .seccion2-container1{
