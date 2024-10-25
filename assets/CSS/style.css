@@ -28,25 +28,23 @@ img{
 .fondo-gris{
     background-color: #737d80;
 }
-.flex-container{
+.flex{
     display: flex;
+}
+.content1{
     justify-content: center;
     align-items: center;
 }
-.flex-container2{
-    display: flex;
+.content2{
     align-items: center;
 }
-.flex-container3{
-    display: flex;
+.content3{
     justify-content: center;
 }
-.flex-colum{
-    display: flex;
+.content4{
     flex-direction: column;
 }
-.flex-space-between{
-    display: flex;
+.content5{
     justify-content: space-between;
 }
 .tamaño{
@@ -64,14 +62,27 @@ img{
     font-size: 2em;
     font-weight: 400;
 }
-.tipografia-gris{
+.tipografia-noto{
+    text-align: center;
+    font-family: "Noto Serif", Serif;
+    font-weight: 400;
+}
+.tipografia-open{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.tip-gris{
     color:  #737d80;
 }
-.tipografia-blanca{
+.tip-blanca{
     color: rgb(255, 255, 255);
 }
-.tipografia-beige{
+.tip-beige{
     color: #ACBBBF;
+}
+.contenido-imagen{
+    width: 100%;
+    height: 100%;
 }
 .see-more{
     width: 100%;
@@ -86,6 +97,10 @@ img{
     }
 /*----/CLASES UTILES---*/
 
+
+
+
+
 /*----HEADER-----*/
 .navegador{ /*aplico display flex al padre*/
     height: 13vh;
@@ -94,7 +109,6 @@ img{
    
    }
 .container-navegador{
-    justify-content: space-between;
     border-bottom: 0.1px solid rgb(101, 99, 99);/*linea blanca*/
     width: 60%;
 }
@@ -104,19 +118,13 @@ img{
 }
 .container-menu nav{
     height: 3vh;
-    display: flex;
 }
 .tamañologo1{
       width: 15%;
       height: 12vh;
-      align-items: flex-end;/*coloca el logo en la parte inferior del contenedor*/
-}
-#logo1{
-    width: 100%;
-    height: auto;
+      align-items: flex-end;
 }
 .menu li{
-    display: flex;
     padding: 0;
     margin: 0;
     width: auto;
@@ -124,22 +132,16 @@ img{
 }
 .listamenu{
     height: auto;
-    font-family: "Open Sans", sans-serif;
-    color: rgb(198, 198, 198);
     font-weight: lighter;
-    text-align: center;
     font-size: 0.8em;
 }
 .menu-hamburguesa{
      width: 8%;
 }
-.listamenu h4{
-   width: 100%;
-   height: auto;
-}
 .cambiocolor:hover{
     color:  #44c6c1;
 }
+/*----/HEADER--*/
 /*-----MAIN-------*/
 /*-----SLIDER-----*/
 .slider{
@@ -154,15 +156,9 @@ img{
 }
 .slider-titulos{
 height: 50vh;
-flex-direction: column;
 }
 .slider-titulos h1{
-    text-align: center;
     font-size: 3.5em;
-    font-family: "Noto Serif", serif;
-    font-style: normal;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
     width: 50%;
     margin-top: 6%;
     height: 15vh;
@@ -172,31 +168,22 @@ flex-direction: column;
     width: 70%;
     font-size: 1em;
     line-height: 1.7em;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Open Sans", sans-serif;
 }
 .slider-titulos div{
     height: 17vh;
-    flex-direction: column;
 }
 .slider-titulos h5{/*texto see more*/
     width: 8%;
     height: 3.4vh;
-    text-align: center;
-    color: rgb(255, 255, 255);
     background-color: #44c6c1;
-    font-family: "Open Sans", sans-serif;
     font-size: 0.8em;/*cambiar a em*/
-    line-height: 12px;
     margin-bottom: 4%;
 }
-
 .slider-titulos a:hover{
 color:  #44c6c1;
 }
 /*----/SLIDER---*/
-/*section1*/
+/*-------SECTION 1 -----*/
 .seccion1-container1{
     height: 120vh;
 }
@@ -205,11 +192,6 @@ color:  #44c6c1;
 }
 .seccion1{
     height: 60vh;
-    display: flex;
-}
-.imagen-dedos-dorados img{
-    width: 100%;
-    height: 100%;
 }
 .info-seccion1{
     width:65%;
@@ -227,27 +209,15 @@ color:  #44c6c1;
 .div-seemore{
     height: 8vh;
 }
-.estilos h3{
-  width: 100%;
-  height: auto;
-}
-.estilos p {
-   width: 100%;
-   height: auto;
-}
 .seccion1-1{
     height: 60vh;
     flex-direction: row-reverse;
-}
-.imagen-labios img{
-    width: 100%;
-    height: 100%;
 }
 .info-seccion1-1{
     width:65%;
     height: 40vh;
 }
-/*seccion2*/
+/*------SECTION 2------*/
 .seccion2-container1{
     height: 60vh;
 }
@@ -264,7 +234,6 @@ height: 41vh;
 }
 .seccion2-info{
 height: 25vh;
-
 }
 .seccion2-info div{
     height: 26vh;
@@ -272,12 +241,10 @@ height: 25vh;
 .seccion2-info p{
     height: 13vh;
 }
-
 .texto-centrado{
-    text-align: center;
-    
+    text-align: center; 
 }
-/*seccion3*/
+/*-----SECTION 3-----*/
 .seccion3-container1{
     background-image: url("../imagenes/2024-urok-home-mujerconsombrero-02.jpg");
     width: auto;
@@ -286,11 +253,9 @@ height: 25vh;
     position: relative;
     z-index: 5;
 }
-
 .seccion3-container2{
     width: 50%;
     height: 60vh;
-    flex-direction: column;
     position: absolute;
     z-index: 10;
 }
@@ -303,29 +268,17 @@ height: 25vh;
     height: 10vh;
 }
 .seccion3-info h3{
-    text-align: center;
-    font-family: "Noto Serif", Serif;
-    color:  #ffffff;
     font-size: 2.3em;
-    font-weight: 400;
 }
 .seccion3-info p{
-text-align: center;
-font-family: "Noto Serif", Serif;
 font-style: italic;
-color:  #ffffff;
 font-size: 1.4em;
-font-weight: 400;
 }
 .seccion3-info h5{
-text-align: center;
-font-family: "Noto Serif", Serif;
 font-style: italic;
-color:  #ffffff;
 font-size: 1.2em;
-font-weight: 400;
 }
-/*seccion4*/
+/*----SECTION 4----*/
 .seccion4-container1{
     height: 140vh;
 }
@@ -338,7 +291,6 @@ font-weight: 400;
     height: 60vh;
 }
 .seccion4-containerdiv{
-   display: flex; 
    height: 50vh;
 }
 .seccion4-containerdiv img{
@@ -354,14 +306,10 @@ font-weight: 400;
 .seccion4-container5{
 width: 90%;
 height: 30vh;
-display: flex;
-flex-direction: column;
 }
 .seccion4-container5-2{
     width: 80%;
     height: 30vh;
-    display: flex;
-    flex-direction: column;
     }
 .seccion4-h3{
 height: 12vh;
@@ -373,7 +321,6 @@ height: 12vh;
     height: 4vh;
 }
 .seccion4-containerdiv2{
-    display: flex; 
     flex-direction: row-reverse;
     height: 50vh;
 }
@@ -386,7 +333,6 @@ height: 12vh;
 /*seccion 5*/
 .seccion5-container{
     height: 70vh;
-    display: flex;
     flex-wrap: wrap;
 }
 .seccion5-container3{
@@ -408,15 +354,10 @@ height: 12vh;
     background-color:rgba(0, 0, 0, 0.5);
     transition: .10s ease;
     opacity: 0;
-
   }
 .overlay a{
     color: aliceblue;
     width: 70%; 
-}
-.seccion5-container3 img{
-    width: 100%;
-    height: 100%;  
 }
 /*seccion 6*/
 .seccion6-container1{
@@ -431,16 +372,13 @@ height: 12vh;
 }
 .seccion6-container2 h3{
     height: 5vh;
-    color:#737D80;
 }
 .seccion6-container3{
-    display: flex;
     height: 40vh;
 }
 .seccion6-container2 h4{
     height: 5vh;
     font-family: "Noto Serif", Serif;
-    color: #737D80;
     font-size: 1em;
     font-weight: 400;
 }
@@ -450,44 +388,38 @@ height: 12vh;
 .seccion6-texto3-div{
 
     width: 90%;
-    height: 20vh;
+    height: 18vh;
 }
 .margin{
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .linea-borde{
     border-left: 0.2px solid rgb(196, 196, 196);
 }
 #seccion6-h3{
-   padding-top: 4%;
-    height: 15vh;
+   padding-top: 2%;
+    height: 13vh;
     font-family: "Open Sans", sans-serif;
     font-size: 1.4em;
-    color: #737D80;
     font-weight: lighter;
     line-height: 1.5em;   
 }
 .seccion6-container-h5{
     height: 2vh;
     width: 34%;
-    display: flex;
 }
 #seccion6-h5-2{
 font-style: italic;
-height: 2.5vh;
+height: 2vh;
 font-family: "Open Sans", sans-serif;
 font-size: 1em;
-color: #737D80;
 font-weight: lighter;
-line-height: 1.5em;
 }
 #seccion6-h5{
     height: 2.5vh;
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
-    color: #737D80;
     font-weight: lighter;
-    line-height: 1.5em;
 }
 
 .seccion6-container4{
@@ -496,18 +428,24 @@ line-height: 1.5em;
 .seccion6-container4 img{
    height: 100%;
 }
+.seccion6-container4-2{
+    position: absolute;
+    height:80%;
+    width: 70%;
+}
+.seccion6-container4-2 h3{
+    font-size: 1.5em;
+}
+.linea{
+    margin-top: 80%;
+}
 /*seccion7*/
 .seccion7-container1{
     height: 60vh;
-    display: flex;
-}
-.seccion7-container3{
-    display: flex;
 }
 .seccion7-container4{
     width: 80%;
     height: 45vh;
-    display: flex;
     align-items: flex-start;
 }
 .seccion7-container4-2{
@@ -537,7 +475,6 @@ background-color: #212526;
 .footer-container1 article{
 height: 50vh;
 width: 60%;
-display: flex;
 }
 .footer-container-datos1{
     height: 40vh; 
@@ -579,7 +516,6 @@ align-items: flex-end;
 width: 60%;
 height: 5vh;
 font-family: "Noto Serif", Serif;
-color: #ffffff;
 font-size: 1.8em;
 font-weight: 400;
 }
