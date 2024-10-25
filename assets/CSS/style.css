@@ -68,7 +68,7 @@ img{
     width: 100%;
     height: auto;
     font-family: "Open Sans", sans-serif;
-     font-size: 0.9em;
+     font-size: 0.8em;
      color:  #3d4142;;
      font-weight: 800;
 }
@@ -81,6 +81,7 @@ img{
 .navegador{ /*aplico display flex al padre*/
     height: 13vh;
     position: absolute;
+    z-index: 1;
    
    }
 .container-navegador{
@@ -219,11 +220,11 @@ color:  #44c6c1;
    height: 15vh;
 }
 .div-p1{
-    height: 15vh;
+    height: 17vh;
     width: 100%;
 }
 .div-seemore{
-    height: 10vh;
+    height: 8vh;
 }
 .estilos h3{
   width: 100%;
