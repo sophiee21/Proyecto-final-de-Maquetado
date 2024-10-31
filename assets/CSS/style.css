@@ -69,6 +69,12 @@ img{
 .center{
     text-align: center; 
 }
+.ita{
+    font-style: italic;
+}
+.light{
+    font-weight: lighter;
+}
 .tipografia-open{
     font-family: "Open Sans", sans-serif;
 }
@@ -80,6 +86,9 @@ img{
 }
 .tip-beige{
     color: #ACBBBF;
+}
+.tip-celeste{
+    color:  #44c6c1;
 }
 .contenido-imagen{
     width: 100%;
@@ -129,7 +138,6 @@ img{
     flex-grow: 1;
 }
 .listamenu{
-    font-weight: lighter;
     font-size: 0.8em;
 }
 .menu-hamburguesa{
@@ -236,9 +244,6 @@ height: 25vh;
 .seccion2-info p{
     height: 13vh;
 }
-.texto-centrado{
-    text-align: center; 
-}
 /*-----SECTION 3-----*/
 .seccion3-container1{
     background-image: url("../imagenes/2024-urok-home-mujerconsombrero-02.jpg");
@@ -266,11 +271,9 @@ height: 25vh;
     font-size: 2.3em;
 }
 .seccion3-info p{
-font-style: italic;
 font-size: 1.4em;
 }
 .seccion3-info h5{
-font-style: italic;
 font-size: 1.2em;
 }
 /*----SECTION 4----*/
@@ -396,16 +399,13 @@ height: 12vh;
     width: 34%;
 }
 #seccion6-h5-2{
-font-style: italic;
 height: 2.5vh;
 font-size: 1em;
-font-weight: lighter;
 margin-left: 1.5%;
 }
 #seccion6-h5{
     height: 2.5vh;
     font-size: 1em;
-    font-weight: lighter;
 }
 .seccion6-container4{
     width: 45%;
@@ -416,7 +416,8 @@ margin-left: 1.5%;
     width: 70%;
 }
 .seccion6-container4-2 h3{
-    font-size: 1.5em;
+    font-size: 1.3em;
+   
 }
 .linea{
     margin-top: 80%;
@@ -462,11 +463,8 @@ width: 60%;
     height: 40vh; 
 }
 .footer-borde{
-height: 48vh;
-}
-.footer-container-borde{
-    height: 35vh;
-    border-left: 0.5px solid rgb(66, 65, 65);
+height: 37vh;
+border-left: 0.5px solid rgb(66, 65, 65);
 }
 .footer-container-datos2{
     height: 9vh;
