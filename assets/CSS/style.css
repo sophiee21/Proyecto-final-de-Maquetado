@@ -99,6 +99,14 @@ img{
      color:  #3d4142;;
      font-weight: 800;
 }
+.linea-celeste::before{
+    content: "";
+    width: 30%;
+    height: 5%;
+    background-color:#44c6c1;
+    margin-right: 8px; 
+   
+}
 .see-more a:hover{/*cambia el color del texto see more*/
     color:  #44c6c1;
     }
@@ -488,14 +496,16 @@ align-items: flex-end;
 }
 .footer-container2-3{
     height: 5vh;
+    margin-left: 4%;
 }
 .prueba{
-    height: 10vh;
+    margin-top: 10%;
+    height: 5vh;
 }
 .footer-container2-3 h5{
 width: 60%;
 height: 5vh;
-font-size: 1.8em;
+font-size: 1.4em;
 font-weight: 400;
 }
 .footer-container2-4{
