@@ -101,7 +101,7 @@ img{
 }
 .linea-celeste::before{
     content: "";
-    width: 30%;
+    width: 25%;
     height: 5%;
     background-color:#44c6c1;
     margin-right: 8px; 
