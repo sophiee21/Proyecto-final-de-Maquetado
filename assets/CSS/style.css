@@ -99,16 +99,43 @@ img{
      color:  #3d4142;;
      font-weight: 800;
 }
+.pad40{
+    padding-left: 40px;
+}
 .linea-celeste::before{
     content: "";
+    position: absolute;
     width: 25%;
     height: 5%;
     background-color:#44c6c1;
     margin-right: 8px; 
-   
+    left: 0;
+    top: 50%;
+}
+.linea-celeste-ppal{
+    width: 50px;
+    height: 1px;
+    margin-top: 4.8%;
+    margin-bottom: 4.8%;
+    background-color:#44c6c1;
+ 
+
+}
+.linea-celeste2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 35px;
+    height: 1px;
+    background-color:#44c6c1;
+
 }
 .see-more a:hover{/*cambia el color del texto see more*/
     color:  #44c6c1;
+    }
+    .relative{
+        position: relative;
     }
 /*----/CLASES UTILES---*/
 
@@ -377,7 +404,7 @@ height: 12vh;
 .seccion6-container2 h4{
     height: 5vh;
     margin-bottom: 2%;
-    margin-left: 4%;
+    margin-left: 5.4%;
     font-size: 1em;
     font-weight: 400;
 }
@@ -478,6 +505,7 @@ border-left: 0.5px solid rgb(66, 65, 65);
 }
 .footer-container-datos2{
     height: 9vh;
+    padding-bottom: 8%;
 }
 .footer-container-datos2 img{
     width: 17%;
@@ -488,6 +516,7 @@ border-left: 0.5px solid rgb(66, 65, 65);
 }
 .footer-container-datos3{
     height: 17vh;
+    padding-bottom: 5%;
 }
 .footer-iconos{
     height: 5vh;
