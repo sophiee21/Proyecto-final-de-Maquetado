@@ -380,6 +380,12 @@ height: 12vh;
 .texto-derecha{
     text-align: right;
 }
+.superpuesto{
+    position: absolute;  
+    z-index: 2; 
+   right: 15%;
+  
+}
 /*----SECTION 5----*/
 .seccion5-container{
     height: 70vh;
