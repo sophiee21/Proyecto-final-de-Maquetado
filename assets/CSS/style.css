@@ -333,6 +333,11 @@ font-size: 1.4em;
 .seccion3-info h5{
 font-size: 1.2em;
 }
+.pad5{
+    padding-right: 29%;
+
+    margin-left: 32%;
+}
 /*----SECTION 4----*/
 .seccion4-container1{
     height: 140vh;
