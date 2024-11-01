@@ -12,7 +12,7 @@
 }
 body{
     font-size: 62.5%;/*se traduce a 10 px=1em*/
-}
+ } 
 .content {
     height: 700vh;/*contiene el header y el main*/
   }
@@ -124,7 +124,6 @@ img{
     margin-left: 8px; 
     top: 50%; 
 }
-
 .linea-celeste-ppal{
     width: 60px;
     height: 1px;
@@ -139,7 +138,6 @@ img{
     width: 35px;
     height: 1px;
     background-color:#44c6c1;
-
 }
 .see-more a:hover{/*cambia el color del texto see more*/
     color:  #44c6c1;
@@ -149,9 +147,6 @@ img{
     }
     .absol{
       position: absolute;  
-    }
-    .height60{
-        height: 60vh;
     }
     
 /*----/CLASES UTILES---*/
@@ -570,6 +565,5 @@ font-weight: 400;
     height: 11vh;
 }
 .footer-container2-4 p{
-    width: 90%;
-   
+    width: 90%;  
 }
