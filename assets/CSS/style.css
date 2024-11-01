@@ -198,10 +198,11 @@ img{
 /*-----MAIN-------*/
 /*-----SLIDER-----*/
 .slider{
-    background-image: url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
-    background-size: auto,cover; 
-    background-repeat: repeat,no-repeat;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(245, 160, 160, 0.1)), url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
+    background-size:cover,auto, 100% ; 
+    background-repeat: no-repeat,repeat, no-repeat;
     height: 100vh;
+    background-position: center,center, center;
 }
 .slider-container{
     width: 65%;
@@ -335,7 +336,6 @@ font-size: 1.2em;
 }
 .pad5{
     padding-right: 29%;
-
     margin-left: 32%;
 }
 /*----SECTION 4----*/
