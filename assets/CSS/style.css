@@ -129,6 +129,9 @@ img{
     height: 1px;
     margin-top: 4.8%;
     margin-bottom: 4.8%;
+   
+ 
+
 }
 .linea-celeste2::before{
     content: "";
@@ -145,15 +148,19 @@ img{
     .relative{
         position: relative;
     }
-    .absol{
-      position: absolute;  
-    }
-    
+   
 /*----/CLASES UTILES---*/
+
+
+
+
+
 /*----HEADER-----*/
 .navegador{ /*aplico display flex al padre*/
     height: 13vh;
+    position: absolute;
     z-index: 1;
+   
    }
 .container-navegador{
     border-bottom: 0.1px solid rgb(101, 99, 99);/*linea blanca*/
@@ -198,6 +205,7 @@ img{
 }
 .slider-container{
     width: 65%;
+   position: relative;
 }
 .slider-titulos{
 height: 50vh;
@@ -231,6 +239,7 @@ color:  #44c6c1;
 /*-------SECTION 1 -----*/
 .seccion1-container1{
     height: 120vh;
+    width: 100%;
 }
 .seccion1-container2{
     width: 62%;
@@ -260,6 +269,7 @@ color:  #44c6c1;
     width:65%;
     height: 32vh;
 }
+
 .pad1{
     margin-left: 10%;
     padding-left: 20%;
@@ -298,11 +308,13 @@ height: 25vh;
     height: 80vh;
     background-size:cover,100% ; 
     background-attachment: fixed;
+    position: relative;
     z-index: 5;
 }
 .seccion3-container2{
     width: 50%;
     height: 60vh;
+    position: absolute;
     z-index: 10;
 }
 .seccion3-info{
@@ -362,6 +374,7 @@ height: 12vh;
 .seccion4-p{
     height: 14vh;
     margin-bottom: 3%;
+
 }
 .pad4{
    padding-right: 3%;
@@ -376,9 +389,11 @@ height: 12vh;
 .texto-derecha{
     text-align: right;
 }
-.superpuesto{ 
+.superpuesto{
+    position: absolute;  
     z-index: 2; 
    right: 15%;
+  
 }
 .pad3{
     margin-right: -10%;
@@ -393,10 +408,14 @@ height: 12vh;
     width: 25%;
     height: auto;
 }
+.overlay-container{
+    position: relative;
+  }
 .overlay-container:hover .overlay{
     opacity:1;
   }
 .overlay{
+    position: absolute;
     top:0;
     left:0;
     background-color:rgba(0, 0, 0, 0.5);
@@ -469,15 +488,18 @@ margin-left: 1.5%;
     width: 45%;
 }
 .seccion6-container4-2{
+    position: absolute;
     height:30%;
     width: 70%;
     margin-top: 40%;
 }
 .seccion6-container4-2 h3{
     font-size: 1.3em;
+   
 }
 .linea{
     margin-top: 80%;
+    
 }
 /*----SECTION 7----*/
 .seccion7-container1{
