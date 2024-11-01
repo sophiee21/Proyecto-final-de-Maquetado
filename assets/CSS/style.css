@@ -121,8 +121,7 @@ img{
     width: 70px;
     height: 1px;
     background-color:#44c6c1;
-    margin-right: 8px; 
-    right:0 ;
+    margin-left: 8px; 
     top: 50%; 
 }
 
@@ -369,11 +368,14 @@ height: 12vh;
 }
 .seccion4-p{
     height: 14vh;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 
 }
+.pad4{
+   padding-right: 3%;
+}
 .seccion4-h5{
-    height: 3vh;
+    height: 2.9vh;
 }
 .seccion4-containerdiv2{
     flex-direction: row-reverse;
