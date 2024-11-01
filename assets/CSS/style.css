@@ -369,9 +369,11 @@ height: 12vh;
 }
 .seccion4-p{
     height: 14vh;
+    margin-bottom: 5%;
+
 }
 .seccion4-h5{
-    height: 4vh;
+    height: 3vh;
 }
 .seccion4-containerdiv2{
     flex-direction: row-reverse;
@@ -385,6 +387,10 @@ height: 12vh;
     z-index: 2; 
    right: 15%;
   
+}
+.pad3{
+    margin-right: -10%;
+   padding-left: 30%;
 }
 /*----SECTION 5----*/
 .seccion5-container{
