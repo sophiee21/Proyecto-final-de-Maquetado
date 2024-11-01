@@ -198,7 +198,7 @@ img{
 /*-----MAIN-------*/
 /*-----SLIDER-----*/
 .slider{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(245, 160, 160, 0.1)), url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
+    background-image: linear-gradient(rgba(80, 67, 67, 0.1), rgba(245, 160, 160, 0.1)), url('../imagenes/2024-urok-home-tramaprincipal.png'), url('../imagenes/imagenprincipal.jpg');/*poner la imagen solo al container donde esta el titulo y texto*/
     background-size:cover,auto, 100% ; 
     background-repeat: no-repeat,repeat, no-repeat;
     height: 100vh;
@@ -304,9 +304,9 @@ height: 25vh;
 }
 /*-----SECTION 3-----*/
 .seccion3-container1{
-    background-image: url("../imagenes/2024-urok-home-mujerconsombrero-02.jpg");
-    width: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imagenes/2024-urok-home-mujerconsombrero-02.jpg");
     height: 80vh;
+    background-size:cover,100% ; 
     background-attachment: fixed;
     position: relative;
     z-index: 5;
