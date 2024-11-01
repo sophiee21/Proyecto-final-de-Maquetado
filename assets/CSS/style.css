@@ -240,6 +240,7 @@ color:  #44c6c1;
 /*-------SECTION 1 -----*/
 .seccion1-container1{
     height: 120vh;
+    width: 100%;
 }
 .seccion1-container2{
     width: 62%;
