@@ -150,9 +150,7 @@ img{
     .absol{
       position: absolute;  
     }
-    .height60{
-        height: 60vh;
-    }
+    
 /*----/CLASES UTILES---*/
 /*----HEADER-----*/
 .navegador{ /*aplico display flex al padre*/
