@@ -124,6 +124,7 @@ img{
     margin-left: 8px; 
     top: 50%; 
 }
+
 .linea-celeste-ppal{
     width: 60px;
     height: 1px;
@@ -138,6 +139,7 @@ img{
     width: 35px;
     height: 1px;
     background-color:#44c6c1;
+
 }
 .see-more a:hover{/*cambia el color del texto see more*/
     color:  #44c6c1;
@@ -568,5 +570,6 @@ font-weight: 400;
     height: 11vh;
 }
 .footer-container2-4 p{
-    width: 90%;  
+    width: 90%;
+   
 }
